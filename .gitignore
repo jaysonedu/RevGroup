@@ -1,0 +1,42 @@
+# Python bytecode files
+*.pyc
+*.pyo
+__pycache__/
+
+# Virtual environment directories
+venv/
+env/
+.venv/
+.env/
+
+# Flask specific files
+instance/
+*.db
+*.sqlite3
+*.log
+
+# Jupyter Notebook files
+.ipynb_checkpoints
+
+# Python distributions
+*.egg
+*.egg-info
+dist/
+build/
+.eggs/
+
+# VS Code settings
+.vscode/
+
+# PyCharm settings
+.idea/
+
+# OS-specific files
+.DS_Store           # macOS
+Thumbs.db           # Windows
+
+# Environment variable files
+.env
+
+# Heroku-specific files (for production)
+*.log
